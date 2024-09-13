@@ -24,3 +24,7 @@ while playing:
     elif user_input == 3:
         multiplicacion = num1 * num2
         print (f"La multiplicacion es {multiplicacion}")
+
+    elif user_input == 4:
+        division = num1 / num2
+        print(f"La división es {division}")
