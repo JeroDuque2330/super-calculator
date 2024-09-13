@@ -20,3 +20,7 @@ while playing:
     elif user_input == 2:
         resta = num1 - num2
         print(f"La resta es {resta}")
+
+    elif user_input == 3:
+        multiplicacion = num1 * num2
+        print (f"La multiplicacion es {multiplicacion}")
