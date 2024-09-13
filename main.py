@@ -6,7 +6,6 @@ while playing:
 
     print("Ingresa la operacion que deseas hacer:")
     print("1. Sumar")
-    suma = num1 + num2 
     print("2. Restar")
     print("3. Multiplicar")
     print("4. Dividir")
@@ -15,7 +14,9 @@ while playing:
     user_input = int(input())
 
     if user_input == 1:
+        suma = num1 + num2  
         print(f"La suma es {suma}")
         
     elif user_input == 2:
-        print("La resta es...")
+        resta = num1 - num2
+        print(f"La resta es {resta}")
